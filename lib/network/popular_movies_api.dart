@@ -4,7 +4,7 @@ import 'package:flutter_application_1/models/popular_model.dart';
 import 'package:http/http.dart' as http;
 
 class PopularMoviesAPI {
-  final URL = 'https://api.themoviedb.org/3/movie/popular?api_key=febe7b80e4d0152ebb43c89af42c114c&language=es-MX&page=1';
+  final URL = '';
 
   Future<List<PopularModel>?> getAllPopular() async{
     final response = await http.get(Uri.parse(URL));
