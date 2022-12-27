@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 class ActorsMovieApi{
 
   Future<List<Cast>?> getActors(id) async{
-    var URL = Uri.parse('https://api.themoviedb.org/3/movie/${id}/credits?api_key=febe7b80e4d0152ebb43c89af42c114c&language=en-MX');
+    var URL = Uri.parse('');
 
     final response = await http.get(URL);
     if(response.statusCode == 200){
