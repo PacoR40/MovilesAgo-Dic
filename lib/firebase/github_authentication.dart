@@ -15,8 +15,8 @@ class GitHubAuthenticator {
         "Accept": "application/json"
       },
       body: jsonEncode(GitHubLoginRequest(
-        clientId: "1f19c4565d5566be8d54",
-        clientSecret: "35907f64a5cbc6f4bd00b935c14ccaec4a191fc5",
+        clientId: "",
+        clientSecret: "",
         code: code
       )),
     );
