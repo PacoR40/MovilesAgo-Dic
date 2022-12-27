@@ -34,7 +34,7 @@
                 <!-- Accepts URIs that begin with YOUR_SCHEME://YOUR_HOST -->
                 <data
                     android:scheme="https"
-                    android:host="pmsn22-15a65.firebaseapp.com" />
+                    android:host="" />
             </intent-filter>
         </activity>    
         <activity android:name="com.facebook.FacebookActivity"
@@ -60,7 +60,7 @@
 
         
         <meta-data android:name="com.google.android.geo.API_KEY"
-                android:value="AIzaSyCUNEhyJ8BhbbttVkYZdhuktl-hqg82kN4"/>
+                android:value=""/>
                 
     </application>
 </manifest>
